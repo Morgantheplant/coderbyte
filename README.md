@@ -1,7 +1,7 @@
 coderbyte
 =========
 
-codebyte practices - my answers
+codebyte practices - my answers to all the challenges below. 
 
 
 
