@@ -1,0 +1,23 @@
+function Palindrome(str) { 
+  
+  var reverseIt = "";
+      var noSpace = str.replace(" ", "");
+  for (var i = noSpace.length - 1; i >= 0; i-- ){
+    reverseIt += noSpace[i];
+    
+  } 
+  
+  if (reverseIt === noSpace){
+    str = true;
+  } else {
+    str = false;
+  
+  }
+  // code goes here  
+  return str; 
+         
+}
+   
+// keep this function call here 
+// to see how to enter arguments in JavaScript scroll down
+Palindrome(readline());           
